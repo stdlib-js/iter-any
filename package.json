@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-any",
-  "version": "0.0.7",
+  "version": "0.0.0",
   "description": "Test whether at least one iterated value is truthy.",
   "license": "Apache-2.0",
   "author": {
