@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterAny;
+})();
 })();
 </script>
 ```
@@ -119,6 +121,7 @@ var bool = iterAny( array2iterator( [] ) );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function threshold( r ) {
     return ( r > 0.95 );
@@ -139,6 +142,7 @@ var bool = iterAny( miter );
 
 console.log( bool );
 
+})();
 })();
 </script>
 </body>
@@ -248,15 +252,15 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/any-by]: https://github.com/stdlib-js/iter-any-by/tree/umd
+[@stdlib/iter/any-by]: https://github.com/stdlib-js/iter-any-by/tree/umd/tree/umd
 
-[@stdlib/iter/every]: https://github.com/stdlib-js/iter-every/tree/umd
+[@stdlib/iter/every]: https://github.com/stdlib-js/iter-every/tree/umd/tree/umd
 
-[@stdlib/iter/for-each]: https://github.com/stdlib-js/iter-for-each/tree/umd
+[@stdlib/iter/for-each]: https://github.com/stdlib-js/iter-for-each/tree/umd/tree/umd
 
-[@stdlib/iter/none]: https://github.com/stdlib-js/iter-none/tree/umd
+[@stdlib/iter/none]: https://github.com/stdlib-js/iter-none/tree/umd/tree/umd
 
-[@stdlib/iter/some]: https://github.com/stdlib-js/iter-some/tree/umd
+[@stdlib/iter/some]: https://github.com/stdlib-js/iter-some/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
