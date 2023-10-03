@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-any",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test whether at least one iterated value is truthy.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-iterator-like": "^0.1.0",
-    "@stdlib/string-format": "^0.1.0",
+    "@stdlib/assert-is-iterator-like": "^0.1.1",
+    "@stdlib/string-format": "^0.1.1",
     "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
