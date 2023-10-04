@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@esm/index.mjs';
+import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.1.1-esm/index.mjs';
 ```
 
 #### iterAny( iterator )
@@ -105,7 +105,7 @@ var bool = iterAny( array2iterator( [] ) );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@esm/index.mjs';
-import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@esm/index.mjs';
+import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.1.1-esm/index.mjs';
 
 function threshold( r ) {
     return ( r > 0.95 );
