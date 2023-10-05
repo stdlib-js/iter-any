@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
-    "@stdlib/assert-is-boolean": "^0.1.0",
+    "@stdlib/assert-is-boolean": "^0.1.1",
     "@stdlib/bench": "^0.1.0",
     "@stdlib/iter-map": "^0.1.0",
     "@stdlib/random-iter-randu": "^0.1.0",
