@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-any/tags). For example,
+
+```javascript
 import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.2.2-esm/index.mjs';
 ```
 
@@ -105,7 +110,7 @@ var bool = iterAny( array2iterator( [] ) );
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@esm/index.mjs';
-import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.2.2-esm/index.mjs';
+import iterAny from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@esm/index.mjs';
 
 function threshold( r ) {
     return ( r > 0.95 );
