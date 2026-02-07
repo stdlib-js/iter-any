@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-iterAny = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@umd/browser.js' )
+iterAny = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.2.3-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var iterAny = require( 'path/to/vendor/umd/iter-any/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.2.3-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -127,7 +127,7 @@ var bool = iterAny( array2iterator( [] ) );
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-any@v0.2.3-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
