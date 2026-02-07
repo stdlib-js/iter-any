@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-any",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Test whether at least one iterated value is truthy.",
   "license": "Apache-2.0",
   "author": {
@@ -40,11 +40,11 @@
     "@stdlib/assert-is-iterator-like": "^0.2.2",
     "@stdlib/string-format": "^0.2.3",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.2.2",
-    "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/assert-is-boolean": "^0.2.3",
     "@stdlib/iter-map": "^0.2.2",
     "@stdlib/random-iter-randu": "^0.2.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
